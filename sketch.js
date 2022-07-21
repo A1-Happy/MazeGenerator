@@ -1,5 +1,5 @@
 let rows, cols;
-let w = 5;
+let w = 20;
 let grid = [];
 let current;
 let stack = [];
@@ -8,7 +8,7 @@ function setup() {
     createCanvas(400, 400);
     cols = floor(width / w);
     rows = floor(height / w);
-    // frameRate(5)
+    frameRate(5)
 
     for (let j = 0; j < rows; j++) {
         for (let i = 0; i < cols; i++) {
